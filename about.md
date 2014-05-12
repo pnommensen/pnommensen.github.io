@@ -10,7 +10,7 @@ I recently took up an interest in photography and you can checkout my photos (co
 
 #### **Fun Facts**
 
-I was born in Karlsruhe, Germany on June 25, 199th. I hold citizenships in the Federal Republic of Germany and the United States of America. I currently live in Santa Clara County, California with my dad, mom, sister and miniature poodle, Calvin. My favorite food is Thai Green Vegetable Curry. 
+I was born in Karlsruhe, Germany on June 25, 1994. I hold citizenships in the Federal Republic of Germany and the United States of America. I currently live in Santa Clara County, California with my dad, mom, sister and miniature poodle, Calvin. My favorite food is Thai Green Vegetable Curry. 
 
 ### Other Online Presences
 
