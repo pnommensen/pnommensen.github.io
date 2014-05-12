@@ -1,0 +1,11 @@
+# Site settings
+title: Patrick Nommensen
+email: patrick@nommensen.us
+description: Hello! My name is Patrick Nommensen and this is my blog where I tend to post about web performance, open source projects such as WordPress and Nginx, photography and, occasionally, politics.
+baseurl: ""
+url: "http://pnommensen.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
