@@ -6,7 +6,9 @@
 
 <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'pnommensen'; // required: replace example with your forum shortname
+        var disqus_shortname = 'pnommensen';
+	var disqus_url = '{{ url_base }}{{ page.url }}';
+	var disqus_title = '{{ page.title | strip_newlines | escape | replace:"'","\'" }}';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
