@@ -4,6 +4,12 @@
   </div>
 </div>
 
+   {% if site.github.url %}
+      {% assign url_base = site.github.url %}
+    {% else %}
+      {% assign url_base = site.url %}
+    {% endif %}
+{% if url_base != "http://localhost:4000" %}
 <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'pnommensen';
@@ -18,3 +24,4 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
+ {% endif %}
