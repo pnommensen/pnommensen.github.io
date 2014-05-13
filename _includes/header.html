@@ -1,4 +1,12 @@
 <head>
+
+{% if site.github.url %}
+    {% assign url_base = site.github.url %}
+  {% else %}
+    {% assign url_base = site.url %}
+  {% endif %}
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -7,7 +15,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.1.1/css/bootstrap.min.css">
+<link href="{{ url_base }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <style>
 body {
   padding-top: 20px;
